@@ -1,0 +1,56 @@
+#scram {
+    position: relative;
+    text-align: center;
+}
+
+#container {
+    height: 500px;
+    width: 1000px;
+    font-family: "Arial";
+    position: relative;
+    overflow-x: hidden;
+    overflow: hidden;
+    display: block;
+}
+
+#timeList {
+    height: 230px;
+    margin-left: 310px;
+    /* overflow-y: auto; */
+    padding-top: 5px;
+}
+
+#timeOut {
+    font-size: 6em;
+    height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+#stats {
+    position: relative;
+    max-width: 350px;
+    top: -200px;
+    left: 410px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stats a {
+    color: darkgoldenrod;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+#stats span {
+    text-align: center;
+}
